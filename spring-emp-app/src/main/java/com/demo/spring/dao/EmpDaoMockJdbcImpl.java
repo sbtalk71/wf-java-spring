@@ -10,4 +10,10 @@ public class EmpDaoMockJdbcImpl implements EmpDao{
 		return "Emp Saved with id "+e.getEmpId();
 	}
 
+	@Override
+	public Emp findOne(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
